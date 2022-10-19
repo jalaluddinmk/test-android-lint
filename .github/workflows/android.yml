@@ -17,8 +17,9 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '11'
-        distribution: 'temurin'
+        distribution: 'zulu'
         cache: gradle
+    - name: gradle lint run
     - run: ./gradlew lint
     - uses: yutailang0119/action-android-lint@v3
       with:
