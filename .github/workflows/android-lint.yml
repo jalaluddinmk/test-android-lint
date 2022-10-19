@@ -1,2 +1,3 @@
 - name: GitHub Action for Android Lint
+  runs-on: self-hosted
   uses: yutailang0119/action-android-lint@v3.1.0
